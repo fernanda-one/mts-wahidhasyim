@@ -7,18 +7,31 @@ module.exports = {
   ],
   theme: {
       screens:{
-          // sm: '480px',
-          // md: '768px',
-          // lg: '976px',
-          // xl: '1440px'
+        'sm': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'md': '768px',
+        // => @media (min-width: 768px) { ... }
+  
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+  
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
       },
     extend: {
         colors:{
-            greenDark: '#004445',
-            greenNormal: '#2C7873',
-            greenLight:'#6FB98F',
-            greenYellow:'#FFD800'
-        }
+            PrimerColor: '#004445',
+            SecondaryColor: '#2C7873',
+            PrimeText:'#6FB98F',
+            SecondText:'#FFD800'
+        },
+        fontFamily:{
+          abel: 'Abel'
+        },
     },
   },
   plugins: [
