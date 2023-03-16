@@ -16,6 +16,13 @@ class PPDB extends BaseController
         $data = [
             'title' => 'PPDB Online | Login'
     ];
-        return view('/siswa/Login',$data);
+        return view('/siswa/login',$data);
+    }
+    public function dashboard()
+    {
+        $data = [
+            'title' => 'PPDB Online | Dashboard'
+    ];
+        return view('/siswa/dashboard',$data);
     }
 }

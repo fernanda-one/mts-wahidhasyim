@@ -1,15 +1,5 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?= $title; ?></title>
-    <link rel="stylesheet" href="/css/app.css">
-</head>
-
-<body class="font-abel">
+<?= $this->extend('layouts/template') ;?>
+<?= $this->section('content') ;?>
     <!-- Navbar -->
     <nav class="relative container mx-auto px-4 bg-PrimerColor">
         <!--  Flex Container  -->
@@ -41,7 +31,7 @@
                     KLIK DAFTAR
                 </button>
                 <button class=" text-slate-50 bg-PrimerColor hover:bg-SecondaryColor text-md font-bold py-1 px-3 rounded">
-                   <a href="/login">MASUK SISWA</a> 
+                   <a href="/masuk">MASUK SISWA</a> 
                 </button>
             </div>
         </div>
@@ -98,6 +88,4 @@
         <p class="text-center text-sm">PPDB Online © MTs. WAHID HASYIM BANGSRI - 2023</p>
     </footer>
     <script src="/js/app.js"></script>
-</body>
-
-</html>
+<?= $this->endSection() ;?>

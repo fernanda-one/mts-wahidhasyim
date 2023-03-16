@@ -30,7 +30,8 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'PPDB::index');
-$routes->get('/daftar','PPDB::login');
+$routes->get('/masuk','PPDB::login');
+$routes->get('/dashboard','PPDB::dashboard');
 
 /*
  * --------------------------------------------------------------------
