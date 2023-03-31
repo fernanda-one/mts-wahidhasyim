@@ -27,10 +27,10 @@
                 SELAMAT DATANG DI PPDB ONLINE <br> MTS. WAHID HASYIM BANGSRI
             </h1>
             <div>
-                <button class=" text-slate-50 mr-3 bg-PrimeText text-md hover:bg-SecondaryColor font-bold py-1 px-3 rounded">
-                    KLIK DAFTAR
+                <button class=" text-PrimerColor mr-3 bg-SecondText hover:bg-PrimeText duration-300 hover:text-SecondText font-bold py-1 px-3 rounded">
+                   <a href="/daftar"><i class="fa fa"></i> KLIK DAFTAR</a>
                 </button>
-                <button class=" text-slate-50 bg-PrimerColor hover:bg-SecondaryColor text-md font-bold py-1 px-3 rounded">
+                <button class=" text-slate-50 bg-PrimerColor hover:bg-PrimeText duration-300 text-md font-bold py-1 px-3 rounded">
                    <a href="/masuk">MASUK SISWA</a> 
                 </button>
             </div>

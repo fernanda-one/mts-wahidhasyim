@@ -15,6 +15,7 @@ class Email extends BaseConfig
      */
     public string $userAgent = 'CodeIgniter';
 
+    
     /**
      * The mail sending protocol: mail, sendmail, smtp
      */

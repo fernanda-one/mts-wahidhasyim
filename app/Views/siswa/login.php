@@ -21,7 +21,7 @@
     </section>
     <!-- form login -->
     <section id="login" class="mb-10">
-        <form action="" class="space-y-6 mt-10" method="post">
+        <form action="/dashboard" class="space-y-6 mt-10" method="get">
             <div class="mt-3 px-6">
                 <label for="email" class="block text-sm font-semibold">Email</label>
                 <div class="mt-1 ">
@@ -46,7 +46,7 @@
                 </button>
             </div>
         </form>
-        <!-- <a href="" class="px-6 block my-3 font-semibold text-md text-PrimerColor">Forgot password?</a> -->
+        <a href="" class="px-6 block my-3 font-semibold text-md text-PrimerColor">Forgot password?</a>
     </section>
     <!-- footer -->
     <section id="footer" class="mt-auto">

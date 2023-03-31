@@ -32,6 +32,8 @@ $routes->set404Override();
 $routes->get('/', 'PPDB::index');
 $routes->get('/masuk','PPDB::login');
 $routes->get('/dashboard','PPDB::dashboard');
+$routes->get('/daftar','PPDB::daftar');
+$routes->get('/daftar/(:segment)','PPDB::daftar/$1');
 
 /*
  * --------------------------------------------------------------------

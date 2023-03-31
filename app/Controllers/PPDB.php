@@ -11,6 +11,15 @@ class PPDB extends BaseController
     ];
         return view('/siswa/home',$data);
     }
+
+    public function daftar($page = "index")
+    {
+        $data = [
+            'title' => 'PPDB Online | Registrasi'
+    ];
+        return view("/siswa/daftar/$page",$data);
+    }
+
     public function login()
     {
         $data = [
@@ -21,8 +30,11 @@ class PPDB extends BaseController
     public function dashboard()
     {
         $data = [
-            'title' => 'PPDB Online | Dashboard'
+            'title' => 'PPDB Online | Dashboard',
+            'dashbord'=>['dashboard'=>'dashboard'],
+            'contentTitle'=>'Beranda',
+            'name'=>'Fernanda',
     ];
-        return view('/siswa/dashboard',$data);
+        return view('/siswa/dashboard/dashboard',$data);
     }
 }

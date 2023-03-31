@@ -24,10 +24,10 @@ module.exports = {
       },
     extend: {
         colors:{
-            PrimerColor: '#004445',
-            SecondaryColor: '#2C7873',
-            PrimeText:'#6FB98F',
-            SecondText:'#FFD800'
+            PrimerColor: '#232931',
+            SecondaryColor: '#393E46',
+            PrimeText:'#4ECCA3',
+            SecondText:'#EEEEEE'
         },
         fontFamily:{
           abel: 'Abel'
